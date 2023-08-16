@@ -66,8 +66,8 @@ const checkFrequency = (map) => {
         const isEmpty = count === 0;
         // falseならfalse返す
         // return count ===0じゃダメなのか？→それでもOKだが見やすさの関係でこう書いてそう
+        // これはmapの各文字に対してreturn false return false return true...みたいに返すのか？=>いやreturn falseになった時点で終わりか
         if (!isEmpty) return false;
     }
-
     return true;
 }
