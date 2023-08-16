@@ -1,4 +1,3 @@
 - NeetCode roadmap参考に問題解いていく
   - https://neetcode.io/roadmap
-- CS50もメモしながら見ていく
-  - https://www.youtube.com/watch?v=8mAITcNt710&t=40s&ab_channel=freeCodeCamp.org
+- 「アルゴリズムとデータ構造」をメモしながら読んでく
