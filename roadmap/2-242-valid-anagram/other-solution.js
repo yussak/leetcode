@@ -14,7 +14,7 @@ var isAnagram = (s, t, map = new Map()) => {
 
     addFrequency(s, map);      /* Time O(N) | Space O(1) */
     subtractFrequency(t, map); /* Time O(N) | Space O(1) */
-
+    
     return checkFrequency(map);/* Time O(N) */
 };
 // sに対して実行
@@ -30,6 +30,7 @@ const addFrequency = (str, map) => {
         // バリューの合計値を計算しないのは責務の関係なのかそもそも必要ないのか。あとのコードも読む
         const count = (map.get(char) || 0) + 1;
 
+        // バリューはa:1,a:1,n:1...じゃなくa:2,n:1...となる。なぜならfor文で1回目のa分でcount=1、2回目にcount=1+1=2となるので。
         map.set(char, count);   /* Space O(1) */
     }
 }
