@@ -1,6 +1,16 @@
 // NeetCode roadmap 一問目
 // https://leetcode.com/problems/contains-duplicate/description/
 
+// Runtime
+// 70 ms
+// Beats
+// 96.44%
+
+// Memory
+// 54.2 MB
+// Beats
+// 53.76%
+
 /**
  * @param {number[]} nums
  * @return {boolean}
