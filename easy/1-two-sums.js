@@ -2,6 +2,7 @@
 
 // brute-forceの解答
 // 以下だと計算量がO(N^2）で非効率
+// j=i+1としているので同じ計算を何回もすることはなくなる
 var twoSum = function(nums, target) {
     // 0,1 02,12,13...,23
     for (let i=0; i<nums.length-1; i++) {
