@@ -1,3 +1,1 @@
-- NeetCode roadmap参考に問題解いていく
-  - https://neetcode.io/roadmap
-- 「アルゴリズムとデータ構造」をメモしながら読んでく
+
