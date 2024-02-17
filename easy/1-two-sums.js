@@ -14,7 +14,7 @@ var twoSum = function(nums, target) {
             // 答えは一つだけだからtrueの時点でreturnする
             return [i, map.get(complement)];
         }
-        // ifチェックしてからsetの理由：すでにmapにある値を追加しないため
+        // ifチェックしてからsetの理由：complementがあった時点でそれが答えになるので。そうじゃない値だけ追加したい
         // キーがnums[i]でバリューがiの理由：今回必要なのはindexだから
         map.set(nums[i], i);
     }
